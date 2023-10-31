@@ -1,0 +1,1636 @@
+CRITICAL - 2023-10-28 09:54:37 --> Class "CI_Controller" not found
+in APPPATH\Controllers\AuthController.php on line 3.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Controllers\\AuthController.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AuthController')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AuthController')
+ 5 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AuthController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 13:26:39 --> Undefined property: App\Controllers\Reg::$load
+in APPPATH\Controllers\Reg.php on line 9.
+ 1 APPPATH\Controllers\Reg.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Reg::$load', 'C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Controllers\\Reg.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 13:26:40 --> Undefined property: App\Controllers\Reg::$load
+in APPPATH\Controllers\Reg.php on line 9.
+ 1 APPPATH\Controllers\Reg.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Reg::$load', 'C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Controllers\\Reg.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 14:43:10 --> Class "App\Controllers\Model" not found
+in APPPATH\Models\UserModel.php on line 4.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Models\\UserModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UserModel')
+ 4 APPPATH\Controllers\Reg.php(17): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UserModel')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 14:43:44 --> Class "App\Controllers\Model" not found
+in APPPATH\Models\UserModel.php on line 4.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Models\\UserModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UserModel')
+ 4 APPPATH\Controllers\Reg.php(17): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UserModel')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 14:43:49 --> Class "App\Controllers\Model" not found
+in APPPATH\Models\UserModel.php on line 4.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Models\\UserModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UserModel')
+ 4 APPPATH\Controllers\Reg.php(17): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UserModel')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 14:43:53 --> Class "App\Controllers\Model" not found
+in APPPATH\Models\UserModel.php on line 4.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Models\\UserModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UserModel')
+ 4 APPPATH\Controllers\Reg.php(17): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UserModel')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 14:45:14 --> Class "App\Controllers\Model" not found
+in APPPATH\Models\UserModel.php on line 4.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Models\\UserModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UserModel')
+ 4 APPPATH\Controllers\Reg.php(17): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UserModel')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 14:45:29 --> Class "App\Controllers\Model" not found
+in APPPATH\Models\UserModel.php on line 4.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Models\\UserModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UserModel')
+ 4 APPPATH\Controllers\Reg.php(17): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UserModel')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 14:56:12 --> Class "App\Controllers\Model" not found
+in APPPATH\Models\UserModel.php on line 4.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Models\\UserModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UserModel')
+ 4 APPPATH\Controllers\Reg.php(17): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UserModel')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 14:57:23 --> Class "App\Controllers\Model" not found
+in APPPATH\Models\UserModel.php on line 4.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Models\\UserModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UserModel')
+ 4 APPPATH\Controllers\Reg.php(17): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UserModel')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 15:00:45 --> Class "App\Controllers\Model" not found
+in APPPATH\Models\UserModel.php on line 4.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Models\\UserModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UserModel')
+ 4 APPPATH\Controllers\Reg.php(17): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UserModel')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 15:04:25 --> Attempt to read property "Roaa" on string
+in APPPATH\Controllers\Reg.php on line 23.
+ 1 APPPATH\Controllers\Reg.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Roaa" on string', 'C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Controllers\\Reg.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 15:04:38 --> Attempt to read property "Roaa" on string
+in APPPATH\Controllers\Reg.php on line 23.
+ 1 APPPATH\Controllers\Reg.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Roaa" on string', 'C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Controllers\\Reg.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 15:07:14 --> Attempt to read property "Roaa" on string
+in APPPATH\Controllers\Reg.php on line 23.
+ 1 APPPATH\Controllers\Reg.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Roaa" on string', 'C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Controllers\\Reg.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 15:08:28 --> Attempt to read property "Roaa" on string
+in APPPATH\Controllers\Reg.php on line 23.
+ 1 APPPATH\Controllers\Reg.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Roaa" on string', 'C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Controllers\\Reg.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 15:08:31 --> Attempt to read property "Roaa" on string
+in APPPATH\Controllers\Reg.php on line 23.
+ 1 APPPATH\Controllers\Reg.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Roaa" on string', 'C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Controllers\\Reg.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 16:33:43 --> Attempt to read property "Roaa" on string
+in APPPATH\Controllers\Reg.php on line 23.
+ 1 APPPATH\Controllers\Reg.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Roaa" on string', 'C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Controllers\\Reg.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 16:34:38 --> Attempt to read property "Roaa" on string
+in APPPATH\Controllers\Reg.php on line 23.
+ 1 APPPATH\Controllers\Reg.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Roaa" on string', 'C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Controllers\\Reg.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 16:37:12 --> Attempt to read property "Roaa" on string
+in APPPATH\Controllers\Reg.php on line 24.
+ 1 APPPATH\Controllers\Reg.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Roaa" on string', 'C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Controllers\\Reg.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 16:37:25 --> Attempt to read property "Roaa" on string
+in APPPATH\Controllers\Reg.php on line 24.
+ 1 APPPATH\Controllers\Reg.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Roaa" on string', 'C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Controllers\\Reg.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 16:40:41 --> Attempt to read property "Roaa" on string
+in APPPATH\Controllers\Reg.php on line 24.
+ 1 APPPATH\Controllers\Reg.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Roaa" on string', 'C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Controllers\\Reg.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 16:41:47 --> Attempt to read property "Roaa" on string
+in APPPATH\Controllers\Reg.php on line 24.
+ 1 APPPATH\Controllers\Reg.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Roaa" on string', 'C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Controllers\\Reg.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 16:43:57 --> Attempt to read property "Roaa" on string
+in APPPATH\Controllers\Reg.php on line 24.
+ 1 APPPATH\Controllers\Reg.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Roaa" on string', 'C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Controllers\\Reg.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 16:44:06 --> Attempt to read property "Roaa" on string
+in APPPATH\Controllers\Reg.php on line 24.
+ 1 APPPATH\Controllers\Reg.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Roaa" on string', 'C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Controllers\\Reg.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+ERROR - 2023-10-28 17:16:04 --> mysqli_sql_exception: Unknown column 'users.deleted_at' in 'where clause' in C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\app\Controllers\Login.php(19): CodeIgniter\BaseModel->first()
+#7 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(942): App\Controllers\Login->do_login()
+#8 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA'A ...')
+#12 {main}
+CRITICAL - 2023-10-28 17:16:04 --> Unknown column 'users.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Login.php(19): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->do_login()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+ERROR - 2023-10-28 17:16:47 --> mysqli_sql_exception: Unknown column 'users.deleted_at' in 'where clause' in C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\app\Controllers\Login.php(19): CodeIgniter\BaseModel->first()
+#7 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(942): App\Controllers\Login->do_login()
+#8 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA'A ...')
+#12 {main}
+CRITICAL - 2023-10-28 17:16:47 --> Unknown column 'users.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Login.php(19): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->do_login()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+ERROR - 2023-10-28 17:20:57 --> mysqli_sql_exception: Unknown column 'users.deleted_at' in 'where clause' in C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\app\Controllers\Login.php(19): CodeIgniter\BaseModel->first()
+#7 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(942): App\Controllers\Login->do_login()
+#8 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA'A ...')
+#12 {main}
+CRITICAL - 2023-10-28 17:20:57 --> Unknown column 'users.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Login.php(19): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->do_login()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+ERROR - 2023-10-28 17:23:49 --> mysqli_sql_exception: Unknown column 'users.deleted_at' in 'where clause' in C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\app\Controllers\Login.php(19): CodeIgniter\BaseModel->first()
+#7 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(942): App\Controllers\Login->do_login()
+#8 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA'A ...')
+#12 {main}
+CRITICAL - 2023-10-28 17:23:49 --> Unknown column 'users.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Login.php(19): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->do_login()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+ERROR - 2023-10-28 17:25:46 --> mysqli_sql_exception: Unknown column 'users.deleted_at' in 'where clause' in C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\app\Controllers\Login.php(19): CodeIgniter\BaseModel->first()
+#7 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(942): App\Controllers\Login->do_login()
+#8 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA'A ...')
+#12 {main}
+CRITICAL - 2023-10-28 17:25:46 --> Unknown column 'users.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Login.php(19): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->do_login()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+ERROR - 2023-10-28 17:25:49 --> mysqli_sql_exception: Unknown column 'users.deleted_at' in 'where clause' in C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\app\Controllers\Login.php(19): CodeIgniter\BaseModel->first()
+#7 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(942): App\Controllers\Login->do_login()
+#8 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA'A ...')
+#12 {main}
+CRITICAL - 2023-10-28 17:25:49 --> Unknown column 'users.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Login.php(19): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->do_login()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+ERROR - 2023-10-28 17:25:53 --> mysqli_sql_exception: Unknown column 'users.deleted_at' in 'where clause' in C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\app\Controllers\Login.php(19): CodeIgniter\BaseModel->first()
+#7 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(942): App\Controllers\Login->do_login()
+#8 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA'A ...')
+#12 {main}
+CRITICAL - 2023-10-28 17:25:53 --> Unknown column 'users.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Login.php(19): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->do_login()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+ERROR - 2023-10-28 17:31:25 --> mysqli_sql_exception: Unknown column 'users.deleted_at' in 'where clause' in C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\app\Controllers\Login.php(23): CodeIgniter\BaseModel->first()
+#7 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(942): App\Controllers\Login->do_login()
+#8 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA'A ...')
+#12 {main}
+CRITICAL - 2023-10-28 17:31:25 --> Unknown column 'users.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Login.php(23): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->do_login()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+ERROR - 2023-10-28 17:31:30 --> mysqli_sql_exception: Unknown column 'users.deleted_at' in 'where clause' in C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\app\Controllers\Login.php(23): CodeIgniter\BaseModel->first()
+#7 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(942): App\Controllers\Login->do_login()
+#8 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA'A ...')
+#12 {main}
+CRITICAL - 2023-10-28 17:31:30 --> Unknown column 'users.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Login.php(23): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->do_login()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+ERROR - 2023-10-28 17:33:18 --> mysqli_sql_exception: Unknown column 'users.deleted_at' in 'where clause' in C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\app\Controllers\Login.php(24): CodeIgniter\BaseModel->first()
+#7 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(942): App\Controllers\Login->do_login()
+#8 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA'A ...')
+#12 {main}
+CRITICAL - 2023-10-28 17:33:18 --> Unknown column 'users.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Login.php(24): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->do_login()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+ERROR - 2023-10-28 17:33:23 --> mysqli_sql_exception: Unknown column 'users.deleted_at' in 'where clause' in C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\app\Controllers\Login.php(24): CodeIgniter\BaseModel->first()
+#7 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(942): App\Controllers\Login->do_login()
+#8 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA'A ...')
+#12 {main}
+CRITICAL - 2023-10-28 17:33:23 --> Unknown column 'users.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Login.php(24): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->do_login()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+ERROR - 2023-10-28 17:33:47 --> mysqli_sql_exception: Unknown column 'users.deleted_at' in 'where clause' in C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\app\Controllers\Login.php(24): CodeIgniter\BaseModel->first()
+#7 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(942): App\Controllers\Login->do_login()
+#8 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA'A ...')
+#12 {main}
+CRITICAL - 2023-10-28 17:33:47 --> Unknown column 'users.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Login.php(24): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->do_login()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+ERROR - 2023-10-28 17:35:38 --> mysqli_sql_exception: Unknown column 'users.deleted_at' in 'where clause' in C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\app\Controllers\Login.php(19): CodeIgniter\BaseModel->first()
+#7 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(942): App\Controllers\Login->do_login()
+#8 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA'A ...')
+#12 {main}
+CRITICAL - 2023-10-28 17:35:38 --> Unknown column 'users.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Login.php(19): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->do_login()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+ERROR - 2023-10-28 17:38:55 --> mysqli_sql_exception: Unknown column 'users.deleted_at' in 'where clause' in C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\app\Controllers\Login.php(19): CodeIgniter\BaseModel->first()
+#7 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(942): App\Controllers\Login->do_login()
+#8 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA'A ...')
+#12 {main}
+CRITICAL - 2023-10-28 17:38:55 --> Unknown column 'users.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Login.php(19): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->do_login()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+ERROR - 2023-10-28 17:40:28 --> mysqli_sql_exception: Unknown column 'users.deleted_at' in 'where clause' in C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\app\Controllers\Login.php(24): CodeIgniter\BaseModel->first()
+#7 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(942): App\Controllers\Login->do_login()
+#8 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA'A ...')
+#12 {main}
+ERROR - 2023-10-28 17:40:28 --> Database Error: Unknown column 'users.deleted_at' in 'where clause'
+CRITICAL - 2023-10-28 17:40:28 --> Call to undefined function App\Controllers\show_error()
+in APPPATH\Controllers\Login.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->do_login()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+ERROR - 2023-10-28 17:40:32 --> mysqli_sql_exception: Unknown column 'users.deleted_at' in 'where clause' in C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\app\Controllers\Login.php(24): CodeIgniter\BaseModel->first()
+#7 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(942): App\Controllers\Login->do_login()
+#8 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA'A ...')
+#12 {main}
+ERROR - 2023-10-28 17:40:32 --> Database Error: Unknown column 'users.deleted_at' in 'where clause'
+CRITICAL - 2023-10-28 17:40:32 --> Call to undefined function App\Controllers\show_error()
+in APPPATH\Controllers\Login.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->do_login()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+ERROR - 2023-10-28 17:40:36 --> mysqli_sql_exception: Unknown column 'users.deleted_at' in 'where clause' in C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\app\Controllers\Login.php(24): CodeIgniter\BaseModel->first()
+#7 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(942): App\Controllers\Login->do_login()
+#8 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA'A ...')
+#12 {main}
+ERROR - 2023-10-28 17:40:36 --> Database Error: Unknown column 'users.deleted_at' in 'where clause'
+CRITICAL - 2023-10-28 17:40:36 --> Call to undefined function App\Controllers\show_error()
+in APPPATH\Controllers\Login.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->do_login()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+ERROR - 2023-10-28 17:40:54 --> mysqli_sql_exception: Unknown column 'users.deleted_at' in 'where clause' in C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\app\Controllers\Login.php(24): CodeIgniter\BaseModel->first()
+#7 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(942): App\Controllers\Login->do_login()
+#8 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA'A ...')
+#12 {main}
+ERROR - 2023-10-28 17:40:54 --> Database Error: Unknown column 'users.deleted_at' in 'where clause'
+CRITICAL - 2023-10-28 17:40:54 --> Call to undefined function App\Controllers\show_error()
+in APPPATH\Controllers\Login.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->do_login()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+ERROR - 2023-10-28 17:45:55 --> mysqli_sql_exception: Unknown column 'users.deleted_at' in 'where clause' in C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\app\Controllers\Login.php(24): CodeIgniter\BaseModel->first()
+#7 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(942): App\Controllers\Login->do_login()
+#8 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA'A ...')
+#12 {main}
+ERROR - 2023-10-28 17:45:55 --> Database Error: Unknown column 'users.deleted_at' in 'where clause'
+CRITICAL - 2023-10-28 17:45:55 --> Call to undefined function App\Controllers\show_error()
+in APPPATH\Controllers\Login.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->do_login()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 17:52:53 --> Attempt to read property "id" on null
+in APPPATH\Controllers\Login.php on line 24.
+ 1 APPPATH\Controllers\Login.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Controllers\\Login.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->do_login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 17:53:45 --> Attempt to read property "id" on null
+in APPPATH\Controllers\Login.php on line 21.
+ 1 APPPATH\Controllers\Login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Controllers\\Login.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->do_login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 17:56:02 --> Attempt to read property "id" on null
+in APPPATH\Controllers\Login.php on line 21.
+ 1 APPPATH\Controllers\Login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Controllers\\Login.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->do_login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 17:58:35 --> Attempt to read property "id" on null
+in APPPATH\Controllers\Login.php on line 21.
+ 1 APPPATH\Controllers\Login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Controllers\\Login.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->do_login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 17:58:43 --> Attempt to read property "id" on null
+in APPPATH\Controllers\Login.php on line 21.
+ 1 APPPATH\Controllers\Login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Controllers\\Login.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->do_login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 17:59:57 --> Attempt to read property "id" on null
+in APPPATH\Controllers\Login.php on line 21.
+ 1 APPPATH\Controllers\Login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Controllers\\Login.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->do_login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 18:03:59 --> Undefined variable $result
+in APPPATH\Controllers\Login.php on line 18.
+ 1 APPPATH\Controllers\Login.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Controllers\\Login.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->do_login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 18:30:52 --> Undefined variable $user
+in APPPATH\Views\profile.php on line 8.
+ 1 APPPATH\Views\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Views\\profile.php', 8)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Views\\profile.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('profile', [], true)
+ 5 APPPATH\Controllers\profile.php(10): view('profile')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\profile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\profile))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 18:34:09 --> Undefined property: stdClass::$username
+in APPPATH\Views\profile.php on line 8.
+ 1 APPPATH\Views\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$username', 'C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Views\\profile.php', 8)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Views\\profile.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('profile', [], true)
+ 5 APPPATH\Controllers\profile.php(21): view('profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\profile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\profile))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 18:34:12 --> Undefined property: stdClass::$username
+in APPPATH\Views\profile.php on line 8.
+ 1 APPPATH\Views\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$username', 'C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Views\\profile.php', 8)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Views\\profile.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('profile', [], true)
+ 5 APPPATH\Controllers\profile.php(21): view('profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\profile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\profile))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 18:37:11 --> Undefined property: stdClass::$profile_image
+in APPPATH\Views\profile.php on line 10.
+ 1 APPPATH\Views\profile.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$profile_image', 'C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Views\\profile.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Views\\profile.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('profile', [], true)
+ 5 APPPATH\Controllers\profile.php(21): view('profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\profile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\profile))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 18:37:14 --> Undefined property: stdClass::$profile_image
+in APPPATH\Views\profile.php on line 10.
+ 1 APPPATH\Views\profile.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$profile_image', 'C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Views\\profile.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Views\\profile.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('profile', [], true)
+ 5 APPPATH\Controllers\profile.php(21): view('profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\profile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\profile))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 18:37:49 --> Invalid file: "layouts/main_layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/main_layout.php')
+ 2 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('layouts/main_layout', [], true)
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('profile', [], true)
+ 4 APPPATH\Controllers\profile.php(21): view('profile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\profile->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\profile))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 19:06:55 --> Undefined property: stdClass::$profile_image
+in APPPATH\Views\profile.php on line 30.
+ 1 APPPATH\Views\profile.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$profile_image', 'C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Views\\profile.php', 30)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Views\\profile.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('profile', [], true)
+ 5 APPPATH\Controllers\profile.php(21): view('profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\profile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\profile))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 19:07:40 --> Undefined property: stdClass::$profile_image
+in APPPATH\Views\profile.php on line 30.
+ 1 APPPATH\Views\profile.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$profile_image', 'C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Views\\profile.php', 30)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Views\\profile.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('profile', [], true)
+ 5 APPPATH\Controllers\profile.php(21): view('profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\profile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\profile))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 19:07:42 --> Undefined property: stdClass::$profile_image
+in APPPATH\Views\profile.php on line 30.
+ 1 APPPATH\Views\profile.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$profile_image', 'C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Views\\profile.php', 30)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Views\\profile.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('profile', [], true)
+ 5 APPPATH\Controllers\profile.php(21): view('profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\profile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\profile))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 19:13:42 --> strpos(): Argument #1 ($haystack) must be of type string, CodeIgniter\Email\Email given
+in SYSTEMPATH\Email\Email.php on line 742.
+ 1 SYSTEMPATH\Email\Email.php(742): strpos(Object(CodeIgniter\Email\Email), ',')
+ 2 SYSTEMPATH\Email\Email.php(555): CodeIgniter\Email\Email->stringToArray(Object(CodeIgniter\Email\Email))
+ 3 APPPATH\Controllers\Reg.php(47): CodeIgniter\Email\Email->setTo(Object(CodeIgniter\Email\Email))
+ 4 APPPATH\Controllers\Reg.php(29): App\Controllers\Reg->sendConfirmationEmail(Object(CodeIgniter\Email\Email))
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+ERROR - 2023-10-28 19:14:00 --> mysqli_sql_exception: Duplicate entry 'roaqino@gmail.com' for key 'email' in C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\app\Controllers\Reg.php(26): CodeIgniter\Model->insert(Array)
+#8 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+#9 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+#10 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA'A ...')
+#13 {main}
+CRITICAL - 2023-10-28 19:14:00 --> Duplicate entry 'roaqino@gmail.com' for key 'email'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone_number`, `password`) VALUES (:first_name:, :last_name:, :email:, :phone_number:, :password:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Reg.php(26): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+ERROR - 2023-10-28 19:15:03 --> mysqli_sql_exception: Duplicate entry 'roaqino@gmail.com' for key 'email' in C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\app\Controllers\Reg.php(26): CodeIgniter\Model->insert(Array)
+#8 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+#9 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+#10 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA'A ...')
+#13 {main}
+CRITICAL - 2023-10-28 19:15:03 --> Duplicate entry 'roaqino@gmail.com' for key 'email'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone_number`, `password`) VALUES (:first_name:, :last_name:, :email:, :phone_number:, :password:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Reg.php(26): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+ERROR - 2023-10-28 19:15:13 --> mysqli_sql_exception: Duplicate entry 'roaqino@gmail.com' for key 'email' in C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\app\Controllers\Reg.php(26): CodeIgniter\Model->insert(Array)
+#8 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+#9 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+#10 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA'A ...')
+#13 {main}
+CRITICAL - 2023-10-28 19:15:13 --> Duplicate entry 'roaqino@gmail.com' for key 'email'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone_number`, `password`) VALUES (:first_name:, :last_name:, :email:, :phone_number:, :password:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Reg.php(26): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+ERROR - 2023-10-28 19:16:23 --> mysqli_sql_exception: Duplicate entry 'roaqino@gmail.com' for key 'email' in C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\app\Controllers\Reg.php(26): CodeIgniter\Model->insert(Array)
+#8 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+#9 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+#10 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA'A ...')
+#13 {main}
+CRITICAL - 2023-10-28 19:16:23 --> Duplicate entry 'roaqino@gmail.com' for key 'email'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone_number`, `password`) VALUES (:first_name:, :last_name:, :email:, :phone_number:, :password:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Reg.php(26): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+ERROR - 2023-10-28 19:16:27 --> mysqli_sql_exception: Duplicate entry 'roaqino@gmail.com' for key 'email' in C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\app\Controllers\Reg.php(26): CodeIgniter\Model->insert(Array)
+#8 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+#9 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+#10 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA'A ...')
+#13 {main}
+CRITICAL - 2023-10-28 19:16:27 --> Duplicate entry 'roaqino@gmail.com' for key 'email'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone_number`, `password`) VALUES (:first_name:, :last_name:, :email:, :phone_number:, :password:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Reg.php(26): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+ERROR - 2023-10-28 19:16:31 --> mysqli_sql_exception: Duplicate entry 'roaqino@gmail.com' for key 'email' in C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\app\Controllers\Reg.php(26): CodeIgniter\Model->insert(Array)
+#8 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+#9 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+#10 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA'A ...')
+#13 {main}
+CRITICAL - 2023-10-28 19:16:31 --> Duplicate entry 'roaqino@gmail.com' for key 'email'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone_number`, `password`) VALUES (:first_name:, :last_name:, :email:, :phone_number:, :password:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Reg.php(26): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+ERROR - 2023-10-28 19:16:45 --> mysqli_sql_exception: Duplicate entry 'roaqino@gmail.com' for key 'email' in C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\app\Controllers\Reg.php(26): CodeIgniter\Model->insert(Array)
+#8 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+#9 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+#10 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA'A ...')
+#13 {main}
+CRITICAL - 2023-10-28 19:16:45 --> Duplicate entry 'roaqino@gmail.com' for key 'email'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone_number`, `password`) VALUES (:first_name:, :last_name:, :email:, :phone_number:, :password:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Reg.php(26): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+ERROR - 2023-10-28 19:17:48 --> mysqli_sql_exception: Duplicate entry 'roaqino@gmail.com' for key 'email' in C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\app\Controllers\Reg.php(26): CodeIgniter\Model->insert(Array)
+#8 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+#9 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+#10 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA'A ...')
+#13 {main}
+CRITICAL - 2023-10-28 19:17:48 --> Duplicate entry 'roaqino@gmail.com' for key 'email'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone_number`, `password`) VALUES (:first_name:, :last_name:, :email:, :phone_number:, :password:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Reg.php(26): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+ERROR - 2023-10-28 19:18:12 --> mysqli_sql_exception: Duplicate entry 'roaqino@gmail.com' for key 'email' in C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\app\Controllers\Reg.php(26): CodeIgniter\Model->insert(Array)
+#8 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+#9 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+#10 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA'A ...')
+#13 {main}
+CRITICAL - 2023-10-28 19:18:12 --> Duplicate entry 'roaqino@gmail.com' for key 'email'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone_number`, `password`) VALUES (:first_name:, :last_name:, :email:, :phone_number:, :password:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Reg.php(26): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+ERROR - 2023-10-28 19:18:21 --> mysqli_sql_exception: Duplicate entry 'roaqino@gmail.com' for key 'email' in C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\app\Controllers\Reg.php(26): CodeIgniter\Model->insert(Array)
+#8 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+#9 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+#10 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA'A ...')
+#13 {main}
+CRITICAL - 2023-10-28 19:18:21 --> Duplicate entry 'roaqino@gmail.com' for key 'email'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone_number`, `password`) VALUES (:first_name:, :last_name:, :email:, :phone_number:, :password:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Reg.php(26): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 19:45:19 --> strpos(): Argument #1 ($haystack) must be of type string, CodeIgniter\Email\Email given
+in SYSTEMPATH\Email\Email.php on line 742.
+ 1 SYSTEMPATH\Email\Email.php(742): strpos(Object(CodeIgniter\Email\Email), ',')
+ 2 SYSTEMPATH\Email\Email.php(555): CodeIgniter\Email\Email->stringToArray(Object(CodeIgniter\Email\Email))
+ 3 APPPATH\Controllers\Reg.php(51): CodeIgniter\Email\Email->setTo(Object(CodeIgniter\Email\Email))
+ 4 APPPATH\Controllers\Reg.php(32): App\Controllers\Reg->sendConfirmationEmail(Object(CodeIgniter\Email\Email), '531d62ded7e24c66407c6679fc442616')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+ERROR - 2023-10-28 20:03:56 --> mysqli_sql_exception: Duplicate entry 'roaqino@gmail.com' for key 'email' in C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\app\Controllers\Reg.php(28): CodeIgniter\Model->insert(Array)
+#8 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+#9 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+#10 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA'A ...')
+#13 {main}
+CRITICAL - 2023-10-28 20:03:56 --> Duplicate entry 'roaqino@gmail.com' for key 'email'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone_number`, `password`, `confirmation_token`) VALUES (:first_name:, :last_name:, :email:, :phone_number:, :password:, :confirmation_token:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Reg.php(28): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+ERROR - 2023-10-28 20:05:38 --> mysqli_sql_exception: Duplicate entry 'roaqino@gmail.com' for key 'email' in C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\app\Controllers\Reg.php(28): CodeIgniter\Model->insert(Array)
+#8 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+#9 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+#10 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA'A ...')
+#13 {main}
+CRITICAL - 2023-10-28 20:05:38 --> Duplicate entry 'roaqino@gmail.com' for key 'email'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone_number`, `password`, `confirmation_token`) VALUES (:first_name:, :last_name:, :email:, :phone_number:, :password:, :confirmation_token:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Reg.php(28): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+ERROR - 2023-10-28 20:10:03 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-28 20:10:03 --> 220 smtp.gmail.com ESMTP f14-20020a05600c4e8e00b003fc0505be19sm4864131wmq.37 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [37.8.99.210]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 530-5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError f14-20020a05600c4e8e00b003fc0505be19sm4864131wmq.37 - gsmtp
+
+The following SMTP error was encountered: 530-5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError f14-20020a05600c4e8e00b003fc0505be19sm4864131wmq.37 - gsmtp
+
+quit: 221 2.0.0 closing connection f14-20020a05600c4e8e00b003fc0505be19sm4864131wmq.37 - gsmtp
+
+ERROR - 2023-10-28 20:12:26 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-28 20:12:26 --> 220 smtp.gmail.com ESMTP u9-20020a5d6ac9000000b0032d687fd9d0sm4493663wrw.19 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [37.8.99.210]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 530-5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError u9-20020a5d6ac9000000b0032d687fd9d0sm4493663wrw.19 - gsmtp
+
+The following SMTP error was encountered: 530-5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError u9-20020a5d6ac9000000b0032d687fd9d0sm4493663wrw.19 - gsmtp
+
+quit: 221 2.0.0 closing connection u9-20020a5d6ac9000000b0032d687fd9d0sm4493663wrw.19 - gsmtp
+
+ERROR - 2023-10-28 20:13:10 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-28 20:13:10 --> 220 smtp.gmail.com ESMTP h7-20020a5d5487000000b0032f7cc56509sm1803375wrv.98 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [37.8.99.210]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 530-5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError h7-20020a5d5487000000b0032f7cc56509sm1803375wrv.98 - gsmtp
+
+The following SMTP error was encountered: 530-5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError h7-20020a5d5487000000b0032f7cc56509sm1803375wrv.98 - gsmtp
+
+quit: 221 2.0.0 closing connection h7-20020a5d5487000000b0032f7cc56509sm1803375wrv.98 - gsmtp
+
+ERROR - 2023-10-28 20:15:31 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-28 20:15:31 --> 220 smtp.gmail.com ESMTP bs27-20020a056000071b00b0032daf848f68sm891126wrb.59 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [37.8.99.210]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials bs27-20020a056000071b00b0032daf848f68sm891126wrb.59 - gsmtp
+
+ERROR - 2023-10-28 20:16:42 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-28 20:16:42 --> 220 smtp.gmail.com ESMTP bs27-20020a056000071b00b0032daf848f68sm892919wrb.59 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [37.8.99.210]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials bs27-20020a056000071b00b0032daf848f68sm892919wrb.59 - gsmtp
+
+ERROR - 2023-10-28 20:21:14 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-28 20:21:14 --> 220 smtp.gmail.com ESMTP gy14-20020a05600c880e00b004064741f855sm4784883wmb.47 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [37.8.99.210]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials gy14-20020a05600c880e00b004064741f855sm4784883wmb.47 - gsmtp
+
+ERROR - 2023-10-28 20:23:26 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-28 20:23:26 --> 220 smtp.gmail.com ESMTP hg10-20020a05600c538a00b0040775fd5bf9sm4847983wmb.0 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [37.8.99.210]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [37.8.99.210]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials hg10-20020a05600c538a00b0040775fd5bf9sm4847983wmb.0 - gsmtp
+
+ERROR - 2023-10-28 20:26:10 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-28 20:26:10 --> 220 smtp.gmail.com ESMTP hg10-20020a05600c538a00b0040775fd5bf9sm4852601wmb.0 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [37.8.99.210]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [37.8.99.210]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials hg10-20020a05600c538a00b0040775fd5bf9sm4852601wmb.0 - gsmtp
+
+ERROR - 2023-10-28 20:26:36 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-28 20:26:36 --> 220 smtp.gmail.com ESMTP er14-20020a05600c84ce00b004064cd71aa8sm4816088wmb.34 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [37.8.99.210]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [37.8.99.210]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials er14-20020a05600c84ce00b004064cd71aa8sm4816088wmb.34 - gsmtp
+
+ERROR - 2023-10-28 20:28:07 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-28 20:28:07 --> 220 smtp.gmail.com ESMTP 17-20020a05600c025100b004083729fc14sm8195611wmj.20 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [37.8.99.210]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 17-20020a05600c025100b004083729fc14sm8195611wmj.20 - gsmtp
+
+ERROR - 2023-10-28 20:30:34 --> mysqli_sql_exception: Duplicate entry 'roaqino@gmail.com' for key 'email' in C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\app\Controllers\Reg.php(28): CodeIgniter\Model->insert(Array)
+#8 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+#9 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+#10 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA'A ...')
+#13 {main}
+CRITICAL - 2023-10-28 20:30:34 --> Duplicate entry 'roaqino@gmail.com' for key 'email'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone_number`, `password`, `confirmation_token`) VALUES (:first_name:, :last_name:, :email:, :phone_number:, :password:, :confirmation_token:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Reg.php(28): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+ERROR - 2023-10-28 20:30:51 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Email\Email.php:1752
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\Users\\ROA'A ...', 1752)
+#1 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Email\Email.php(1752): mail('roaqino@gmail.c...', '=?UTF-8?Q?Accou...', 'This is a multi...', 'Date: Sat, 28 O...', '-f jeingaciro@g...')
+#2 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Email\Email.php(1684): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Email\Email.php(1578): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\app\Controllers\Reg.php(64): CodeIgniter\Email\Email->send()
+#5 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\app\Controllers\Reg.php(32): App\Controllers\Reg->sendConfirmationEmail('roaqino@gmail.c...', '381d7b580c989ba...')
+#6 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+#7 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+#8 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA'A ...')
+#11 {main}
+ERROR - 2023-10-28 20:30:51 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-10-28 20:30:51 --> 
+ERROR - 2023-10-28 20:33:00 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-28 20:33:00 --> 220 smtp.gmail.com ESMTP k14-20020ac24f0e000000b005007da9f823sm294998lfr.168 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [37.8.99.210]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials k14-20020ac24f0e000000b005007da9f823sm294998lfr.168 - gsmtp
+
+ERROR - 2023-10-28 20:34:30 --> mysqli_sql_exception: Duplicate entry 'roaqino@gmail.com' for key 'email' in C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\app\Controllers\Reg.php(28): CodeIgniter\Model->insert(Array)
+#8 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+#9 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+#10 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA'A ...')
+#13 {main}
+CRITICAL - 2023-10-28 20:34:30 --> Duplicate entry 'roaqino@gmail.com' for key 'email'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`first_name`, `last_name`, `email`, `phone_number`, `password`, `confirmation_token`) VALUES (:first_name:, :last_name:, :email:, :phone_number:, :password:, :confirmation_token:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Reg.php(28): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->do_reg()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+ERROR - 2023-10-28 20:34:49 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-28 20:34:49 --> 220 smtp.gmail.com ESMTP l12-20020adfe9cc000000b003232380ffd7sm4565850wrn.102 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [37.8.99.210]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials l12-20020adfe9cc000000b003232380ffd7sm4565850wrn.102 - gsmtp
+
+ERROR - 2023-10-28 20:36:06 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-28 20:36:06 --> 220 smtp.gmail.com ESMTP d17-20020adfa411000000b00326b8a0e817sm4626541wra.84 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [37.8.99.210]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d17-20020adfa411000000b00326b8a0e817sm4626541wra.84 - gsmtp
+
+CRITICAL - 2023-10-28 20:52:10 --> Undefined property: stdClass::$confirmation_expires_at
+in APPPATH\Controllers\Reg.php on line 73.
+ 1 APPPATH\Controllers\Reg.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$confirmation_expires_at', 'C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Controllers\\Reg.php', 73)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->confirmAccount('696c928d9b2919f69ecb3b97e34e87ca')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 20:52:52 --> Too few arguments to function App\Controllers\Reg::confirmAccount(), 0 passed in C:\Users\ROA'A QINO\Desktop\CodeIgniter4-4.4.3\Ci4_project\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Reg.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reg->confirmAccount()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reg))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 20:57:43 --> Unclosed '{' on line 6
+in APPPATH\Controllers\Reg.php on line 98.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Controllers\\Reg.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Reg')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Reg')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Reg', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
+CRITICAL - 2023-10-28 20:57:49 --> Unclosed '{' on line 6
+in APPPATH\Controllers\Reg.php on line 98.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\app\\Controllers\\Reg.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Reg')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Reg')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Reg', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ROA\'A QINO\\Desktop\\CodeIgniter4-4.4.3\\Ci4_project\\public\\index.php')
