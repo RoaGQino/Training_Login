@@ -156,7 +156,7 @@
            <input type="submit" name="submit" value="login now" class="form-btn">
         <p>don't have an account? <a href="reg">reg</a></p>
         <p>Forget password? <a href="forgotPassword">forgotPassword</a></p>
-
+<p>Make conflict</p>
         
           </form>
        
